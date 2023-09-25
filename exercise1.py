@@ -1,19 +1,19 @@
-# #1
-# print("Enter your height")
-# feet = int(input("Feet: "))
-# inches = int(input("Inches: "))
+#1
+print("Enter your height")
+feet = int(input("Feet: "))
+inches = int(input("Inches: "))
 
-# feetcm = feet * 30.48
-# inchescm = inches * 2.54
-# totalcm = feetcm + inchescm
-# boardcm = totalcm*(88/100)
+feetcm = feet * 30.48
+inchescm = inches * 2.54
+totalcm = feetcm + inchescm
+boardcm = totalcm*(88/100)
 
-# print(f'Suggested board length = {boardcm}')
+print(f'Suggested board length = {boardcm}')
 
-# #2
-# force,mass = input("Enter force in Newtons and mass in kg: ").split(",")
-# acc = float(force)/float(mass)
-# print(f'Acceleration = {acc} m/s^2')
+#2
+force,mass = input("Enter force in Newtons and mass in kg: ").split(",")
+acc = float(force)/float(mass)
+print(f'Acceleration = {acc} m/s^2')
 
 #3
 verb = input("Enter a verb: ")
